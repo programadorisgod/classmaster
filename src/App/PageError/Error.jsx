@@ -1,6 +1,6 @@
 import "./Css/Error.css";
 
-export function PageError() {
+export default function PageError() {
   return (
     <div className="scene">
       <div className="background">

@@ -1,7 +1,7 @@
 import { Header } from "./Components/Header.jsx";
 import { Main } from "./Components/Main.jsx";
 
-export function Home() {
+export  default function Home() {
     return(<div className="home">
         <Header/>
         <Main/>

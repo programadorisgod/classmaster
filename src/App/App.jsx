@@ -1,14 +1,15 @@
 import React, { lazy, Suspense } from "react";
-import ReactDOM from "react-dom/client"; // Importar createRoot desde aquí
+import ReactDOM from "react-dom/client"; 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Home } from "./Home/Home.jsx";
 import "./Home/Css/Styles.css";
-import { Access } from "./Access/Access.jsx";
-import { PageError } from "./PageError/Error.jsx";
-import { Dashboard } from "./Dashboard/Dashboard.jsx";
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
+
+const Dashboard = lazy(() => import("./Dashboard/Dashboard.jsx"));
+const Home = lazy(() => import("./Home/Home.jsx"));
+const Access = lazy(() => import("./Access/Access.jsx"));
+const PageError = lazy(() => import("./PageError/Error.jsx"));
 
 
 const App = () => {

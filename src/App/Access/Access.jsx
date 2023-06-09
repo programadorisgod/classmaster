@@ -4,7 +4,7 @@ import { Login } from "./Components/Login";
 import { Signin } from "./Components/Signin";
 import { useState } from "react";
 
-export function Access({Form = "Login"}) {
+export  default function Access({Form = "Login"}) {
   const [currentForm, setCurrentForm] = useState(Form);
 
   const toggleForm = (formName) => {

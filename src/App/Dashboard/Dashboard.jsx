@@ -17,7 +17,7 @@ import { AttendanceNotification } from "./Components/Notification/AttendanceNoti
 
 const cookies = new Cookies();
 
-export function Dashboard() {
+export default  function Dashboard() {
   const [optionState, setOptionState] = useState("Horario");
   const [notifications, setNotifications] = useState([])
   const [user, setUser] = useState({
