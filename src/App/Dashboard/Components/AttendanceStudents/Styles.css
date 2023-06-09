@@ -1,0 +1,61 @@
+.listAttendance {
+  margin: 0 15px;
+  padding: 35px 55px 0;
+}
+.input-date {
+  position: absolute;
+  top: 6.1em;
+  right: 20em;
+  border: 1px solid #c1d2ee;
+  border-radius: 3px;
+  padding: 0.35em;
+}
+.input_search {
+  width: 10em;
+}
+.search-container {
+  top: 13.7%;
+}
+.btn-attendance {
+  position: relative;
+  top: -2.5em;
+  right: -55.4em;
+  background: rgba(165, 80, 255, 0.817);
+  border-radius: 7px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 0.4em;
+  border: 0;
+}
+
+.radiobtn {
+  margin: 0 2px 0 0;
+}
+.asistencia {
+  accent-color: green;
+}
+.falla {
+  accent-color: red;
+}
+.excusa {
+  accent-color: darkgoldenrod;
+}
+@media screen and (min-width: 1400px) {
+  .input-date {
+    top: 6.35em;
+    right: 28.5em;
+    width: 14em;
+  }
+  .search-container {
+    top: 5.35em;
+     right: 6em;
+  }
+  .input_search {
+    width: 16em;
+  }
+  .btn-attendance {
+    top: -2em;
+    right: -73.4em;
+  }
+}

@@ -1,0 +1,8 @@
+.ListHeader{
+    margin: auto 1.6em;
+}
+
+.selected{
+    width: 20%;
+    margin: 0 1.5em 0 0.5em;
+}

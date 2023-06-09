@@ -1,0 +1,135 @@
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #a785e32e;
+}
+.input-asistencia {
+  place-self: center;
+  padding: 2px;
+  width: 30px;
+}
+.input-asistencia::-webkit-inner-spin-button, 
+.input-asistencia::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination__link {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination__link--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination__link--active {
+  font-weight: bold;
+}
+
+.search-container {
+  position: absolute;
+  top: 15%;
+  right: 7.5%;
+}
+
+.input_search {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 210px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.DataTable {
+  margin: 1.6em 1.6em 1em 1.5em;
+  border-collapse: collapse;
+  width: -webkit-fill-available;
+}
+.button {
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 4px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+.button .icon {
+  margin: 0 2px;
+}
+
+.icon {
+  mix-blend-mode: overlay;
+  vertical-align: text-top;
+  padding: 1px 0 0 0;
+}
+
+.edit {
+  background-color: rgba(80, 176, 255, 0.817);
+}
+.edit:hover {
+  background-color: #247ddcd6;
+}
+.delete {
+  background-color: rgba(255, 0, 0, 0.486);
+}
+.delete:hover {
+  background-color: rgba(219, 27, 27, 0.735);
+}
+.form_editStudent {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 36px;
+  font-size: 15px;
+  margin: 3px;
+}
+.close-button {
+  border: none;
+  background-color: transparent;
+}
+.Modal {
+  position: relative;
+  inset: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 20px;
+  outline: none;
+  padding: 20px;
+  width: 35vw;
+  margin: auto;
+}
+
+@media screen and (min-width: 1400px) {
+  th,
+  td {
+    padding: 10px;
+  }
+  .DataTable {
+    margin: 2.5em 1.6em 1em 1.5em;
+  }
+  .Modal {
+    margin: 6em auto;
+  }
+}

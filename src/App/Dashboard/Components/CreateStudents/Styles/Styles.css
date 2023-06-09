@@ -1,0 +1,104 @@
+.CreateStudents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 96vh;
+  background-color: aliceblue;
+}
+
+.CreateStudents-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 2.5em 1em;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #00000029;
+  margin: 1px;
+  width: 50%;
+}
+
+.CreateStudents_foto {
+  place-self: center;
+  border-radius: 90%;
+  width: 90px;
+  height: 87px;
+}
+
+.CS_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.CS_flex-element {
+  width: 48%;
+}
+
+.select,
+.input,
+.text {
+  width: 100%;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  color: #1e1e1e;
+  background-color: #e9eff9;
+  box-sizing: border-box;
+  padding: 2px;
+}
+
+.select:focus,
+.input:focus,
+.input-foto:focus,
+.text:focus {
+  outline: none;
+  border: 1px solid #1e90ff;
+  padding: 0;
+}
+
+.CS_btns {
+  display: flex;
+  place-self: self-end;
+  margin-top: 0.7rem;
+}
+.btn {
+  background: rgba(165, 80, 255, 0.817);
+  border-radius: 10px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 6.4px 18px;
+  border: 0;
+  margin-right: 1em;
+}
+
+.input-foto {
+  font-size: 12px;
+  color: transparent;
+
+  margin: 0.5rem 0 0.5rem 38.5%;
+}
+
+@media screen and (min-width: 1400px) {
+  .CreateStudents-form {
+    padding: 2rem 35px;
+    font-size: 18px;
+    margin: 6em;
+    width: 60%;
+  }
+  .select,
+  .input,
+  .text {
+    margin: 8px 0 35px 0;
+    padding: 4px;
+  }
+  .input-foto {
+    margin: 1rem 0 1rem 21.2vw;
+  }
+}

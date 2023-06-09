@@ -1,0 +1,201 @@
+.configuration-box {
+  height: 100%;
+  width: 100%;
+}
+
+.configuration-content {
+  height: calc(85% - 3.5em);
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 25% 15% 15% 15% 18%;
+}
+
+.configuration-goBack {
+  margin: 5% 0 0 5%;
+}
+
+.configuration-content__child {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+  padding: 1.5% 0;
+  box-sizing: border-box;
+}
+
+.configuration-profile-img {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.configuration-profile__img-box {
+  height: 100%;
+  width: auto;
+  aspect-ratio: 1/1;
+  position: relative;
+  margin: auto;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+
+  & input {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 0;
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+
+.configuration-profile__img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.configuration-inputs-profile {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 10%;
+
+  & h4 {
+    display: inline;
+    font-size: 1vw;
+    padding-left: 2%;
+  }
+
+  & input {
+    position: absolute;
+    max-height: 3em;
+    font-weight: 500;
+    color: rgb(68, 68, 68);
+    height: 75%;
+    width: 23vw;
+    right: 2%;
+    border: 0;
+    border-radius: 0.5em;
+    box-shadow: 0 0 5px rgb(180, 180, 180);
+    padding: 0.3em 1em;
+  }
+}
+
+#configuration-identification {
+  font-size: 0.9vw;
+}
+
+.configuration-input__twice {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#configuration-address-input {
+  width: 191.5%;
+}
+
+.configuration-input__password-button {
+  width: 80%;
+  padding: 1.1em 0;
+  margin: auto;
+  background: rgba(165, 80, 255, 0.817);
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  border: 0;
+  border-radius: 0.6em;
+  cursor: pointer;
+}
+
+.configuration-inputs-profile:last-child {
+  & .configuration-button__edit {
+    width: 55%;
+    margin: auto;
+    padding: 0.6em 0;
+    background: rgba(80, 176, 255, 0.817);
+    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0.6em;
+    cursor: pointer;
+  }
+
+  & .configuration-button__delete {
+    width: 55%;
+    margin: auto;
+    padding: 0.6em 0;
+    background: rgba(255, 80, 80, 0.817);
+    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0.6em;
+    cursor: pointer;
+  }
+
+  & .configuration-button__submit {
+    width: 55%;
+    margin: auto;
+    padding: 0.6em 0;
+    background: rgba(165, 80, 255, 0.817);
+    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0.6em;
+    cursor: pointer;
+  }
+}
+
+#configuration-input__password {
+  width: calc(23vw - 2.4vw);
+  padding: 0.3em 3.2vw 0.3em 1em;
+}
+
+#configuration-input__confirm-password {
+    width: calc(23vw - 2.4vw);
+    padding: 0.3em 3.2vw 0.3em 1em;
+  }
+
+.configuration-input__password-icon {
+  position: absolute;
+  right: 1.5vw;
+  color: #4e4e4e;
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 1100px) {
+  .configuration-inputs-profile {
+    & input {
+      width: 20vw;
+    }
+  }
+
+  #configuration-address-input {
+    width: 60.6vw;
+  }
+
+  #configuration-input__password {
+    width: calc(23vw - 5.75vw);
+    padding: 0.3em 4vw 0.3em 1em;
+  }
+  #configuration-input__confirm-password {
+    width: calc(23vw - 5.75vw);
+    padding: 0.3em 4vw 0.3em 1em;
+  }
+
+  .configuration-input__password-icon {
+    right: 2vw;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  #configuration-address-input {
+    width: 65.5vw;
+  }
+}

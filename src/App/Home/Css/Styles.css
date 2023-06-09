@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.home {
+  background: url(../../../Images/Fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+.header {
+  display: flex;
+  padding: 30px 15px 15px 150px;
+}
+
+.header__title {
+  font-size: 20px;
+  padding: 5px;
+}
+.header__link-btn {
+  position: relative;
+    top: 7px;
+    left: 63%;
+  width: 70px;
+  height: 25px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 2px;
+  font-size: 15px;
+}
+
+.main__btn:hover,
+.header__link-btn:hover {
+  background: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  box-shadow: 0 1px 10px 0 #5309a7;
+}
+
+.main {
+  display: flex;
+  max-width: 1200px;
+  margin: 45px auto 0;
+}
+
+.main__element {
+  width: 45%;
+  margin-right: 5%;
+}
+.main__title {
+  font-size: 25px;
+}
+
+.main__text {
+  font-size: 16px;
+}
+
+.main__btn {
+  width: 150px;
+  height: 40px;
+  background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+  border-radius: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main__element-right {
+  padding: 60px;
+  height: 240px;
+  text-align: justify;
+  background: linear-gradient(
+    135deg,
+    rgba(254, 254, 254, 0.279),
+    rgba(255, 255, 255, 0.308)
+  );
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(49, 12, 161, 0.37);
+  margin-left: 20px;
+}
+
+.main__element-img {
+  width: 600px;
+  position: relative;
+  bottom: 40px;
+}
+
+.main__title-color {
+  font-style: italic;
+  background-clip: 0;
+  background-image: linear-gradient(
+    45deg,
+    #18ada6 0%,
+    #331bb8 35%,
+    #1d0eef 85%,
+    #31a8c2 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: #fff;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 1150px) {
+  .header {    
+    padding: 3% 20% 0 14%
+  }
+  .main{
+      margin: 8% auto 0
+  }
+  .main__element{
+    width: 0;
+  }
+  .main__element-img {
+    display: none;
+  }
+  .main__element-right {
+    width: auto;
+    height: auto;
+  }
+  .main__title {
+    font-size: 22px;
+  }
+}
+
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 1400px) {
+  .header {
+    padding: 3% 15px 15px 11%;
+  }
+  .main {
+    margin: 9% auto 0;
+    padding: 0 0 0 60px;
+  }
+  .main__element-img {
+    width: 170%;
+    bottom: 10%;
+    right: 30%;
+  }
+  .main__element-right {
+    margin: 3% 0 0 12%;
+  }
+}

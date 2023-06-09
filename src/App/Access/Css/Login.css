@@ -1,0 +1,212 @@
+.Access {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url("../../../Images/gradient_ungu.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.access-box{
+  width: 450px;
+  height: 550px;
+}
+
+.form-box {
+  background-color: rgba(23, 33, 94, 0.228);
+  backdrop-filter: blur(12px);
+  background-size: cover;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & form {
+    width: 310px;
+  }
+}
+
+.imagen-svg {
+  background-color: #f299f25c;
+  backdrop-filter: blur(4px);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid rgba(255, 255, 255);
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-svg__img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  animation: mover 2s linear infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(center);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+.form__title {
+  font-size: 2em;
+  letter-spacing: 1px;
+  color: #fff;
+  text-align: center;
+}
+
+.form__input-box {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+}
+
+.input-box__label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.input-box__input:focus ~ .input-box__label,
+.input-box__input:valid ~ .input-box__label,
+.input-box__input:not(:placeholder-shown) ~ .input-box__label {
+  top: -5px;
+}
+
+.input-box__input {
+  width: calc(98.7% - 33px);
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding-left: 5px;
+  color: #fff;
+}
+
+.input_error_margin {
+  margin-bottom: 0;
+}
+
+.input__error {
+  padding: 4px 0;
+  width: auto;
+  line-height: 1.1;
+  font-size: 1em;
+  color: #ff4f4f;
+  text-shadow: 0 0 10px black;
+}
+
+.text-aling-center {
+  text-align: center;
+}
+
+.input__validation-error {
+  background-color: rgba(255, 0, 0, 0.22);
+  border: 2px solid rgb(255, 170, 170);
+  border-top: 0;
+  border-radius: 0 0 10px 10px ;
+  padding: 15px 25px;
+  margin-bottom: 15px;
+  line-height: 1;
+  color: #fff;
+}
+
+.input__validation-successful {
+  background-color: rgba(0, 255, 42, 0.22);
+  border: 2px solid rgb(170, 255, 205);
+  border-top: 0;
+  border-radius: 0 0 10px 10px ;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  line-height: 1  ;
+  color: #fff;
+  font-size: 12.4px;
+}
+
+.input-box__font-icon {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 19px;
+  top: 20px;
+}
+
+.form__forget {
+  margin-bottom: 15px;
+  font-size: 0.9em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+
+.forget__input {
+  margin-right: 3px;
+}
+
+.forget__password {
+  color: #deebff;
+  text-decoration: underline;
+}
+
+.form__button {
+  width: 100%;
+  height: 40px;
+  border-radius: 35px;
+  background: #fff;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  letter-spacing: .7px;
+}
+
+.form__button:active {
+  font-size: .8em;
+  border: 2px inset rgba(128, 128, 128, 0.55);
+}
+
+.form__register {
+  font-size: .9em;
+  color: #fff;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.register__link {
+  display: inline;
+  color: #deebff;
+  text-decoration: underline;
+  font-weight: 500;
+  letter-spacing: .5px;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .imagen-svg{
+    display: none;
+  }
+
+  .form-box{
+    border-radius: 20px 20px 20px 20px;
+  }
+}

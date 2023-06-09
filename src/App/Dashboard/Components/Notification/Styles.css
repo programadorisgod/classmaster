@@ -1,0 +1,60 @@
+.notifications-box {
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  max-width: 50%;
+  top: 3.5em;
+  right: 5vw;
+  z-index: 20;
+}
+
+.notification {
+  height: fit-content;
+  width: fit-content;
+  padding: 5% 7%;
+  margin: 1.5vh auto;
+  border-radius: 0 0 .7em .7em;
+  border-top: 3px solid rgb(0, 140, 255);
+  box-shadow: 0 0 10px rgba(129, 129, 129, 0.4);
+  background-color: #eef7ff;
+
+  & h4 {
+    font-size: 1.1em;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+  }
+
+  & h5 {
+    font-size: 0.95em;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+  }
+
+  & p {
+    width: fit-content;
+    font-size: 0.85em;
+    text-align: center;
+    margin: 3% auto;
+    display: flex;
+    flex-direction: column;
+
+    & span {
+      white-space: nowrap;
+    }
+  }
+
+  & button {
+    width: 50%;
+    padding: .3em 0;
+    margin-left: 25%;
+    background: rgba(165, 80, 255, 0.817);
+    box-shadow: #5e5df0 0 10px 20px -10px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0.6em;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,221 @@
+.configuration-form-background {
+  position: absolute;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+}
+
+.configuration-form {
+  width: 50%;
+  height: 50%;
+  margin-left: 35%;
+  position: relative;
+  background-color: #f9f9f9;
+  border: 2px solid rgba(128, 128, 128, 0.3);
+  border-radius: 1.5em;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.configuration-form__title-box {
+  height: 15%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.configuration-form__title {
+  font-size: 1.5vw;
+  line-height: 1.2;
+}
+
+.configuration-form__exit {
+  position: absolute;
+  height: 15%;
+  width: 10%;
+  top: 0;
+  right: 0;
+  margin-right: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.configuration-form__exit__icon {
+  position: absolute;
+  right: 0;
+  height: 2.2em;
+  color: #808080;
+}
+
+.configuration-form__content {
+  width: 91%;
+  height: 65%;
+  margin: auto;
+  position: relative;
+}
+
+.configuration-form__content__profile {
+  background-color: #fff;
+  width: 100%;
+  height: 48%;
+  border-radius: .8em;
+  box-shadow: 0 0 15px rgb(180, 180, 180, .7);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.configuration-form__content__image {
+  position: relative;
+  height: 80%;
+  aspect-ratio: 1/1;
+  background-color: transparent;
+  margin-left: 4%;
+  display: flex;
+  overflow: hidden;
+}
+
+.form__content__image-input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  font-size: 0;
+  opacity: 0;
+  box-shadow: inset 0 0 5px 1px rgba(128, 128, 128, 0.5);
+}
+
+.form__content__image {
+  position: absolute;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.configuration-form__content__profile__inputs {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 1fr 1fr;
+  width: 71%;
+  height: 75%;
+  margin: 0 4%;
+  position: absolute;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.configuration-form__labels {
+  font-size: 1.15vw;
+  font-weight: bolder;
+  opacity: .8;
+}
+
+.profile__input {
+  width: calc(94% - 2em);
+  height: 60%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1vw;
+  font-weight: 500;
+  padding: 0.3em 1em;
+  color: rgb(68, 68, 68);
+  margin-left: 5%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.45);
+}
+
+.configuration-form__content__additional {
+  background-color: #fff;
+  width: 100%;
+  height: 48%;
+  border-radius: .8em;
+  box-shadow: 0 0 15px rgb(180, 180, 180, .7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.configuration-form__content__additional__inputs {
+  margin: 0 4%;
+  width: auto;
+  height: auto;
+}
+
+.additional__label {
+  display: inline-block;
+  margin-right: 3%;
+  opacity: .8;
+}
+
+.additional__label:nth-of-type(3) {
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+.additional__input {
+  width: calc(28% - 2em);
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1vw;
+  font-weight: 500;
+  padding: 0.3em 1em;
+  color: rgb(68, 68, 68);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.45);
+}
+
+.additional__input:first-of-type {
+  margin-right: 5%;
+}
+
+.additional__input:nth-of-type(3) {
+  width: calc(83.5% - 2em);
+}
+
+.configuration-form__buttons {
+  width: 100%;
+  height: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.configuration-form__button {
+  font-size: .85vw;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #16d6f0;
+  border: none;
+  border-radius: 1em;
+  box-shadow: 0 0.35em #999;
+  width: 80%;
+  height: 45%;
+  margin: auto;
+}
+
+.configuration-form__button:hover {
+  background-color: #15cae2;
+}
+
+.configuration-form__button:active {
+  background-color: #15cae2;
+  box-shadow: 0 0.25em #666;
+  transform: translateY(0.25em);
+}
+
+@media screen and (max-width: 1060px) {
+  .configuration-form {
+    margin-left: 29%;
+  }
+}

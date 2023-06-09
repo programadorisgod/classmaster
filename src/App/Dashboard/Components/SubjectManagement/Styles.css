@@ -1,0 +1,437 @@
+.subjects-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+.subjects-content {
+    height: 90%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 4%;
+}
+
+.subject {
+    padding: 5%;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border-radius: 1em;
+    box-shadow: 0 0 .6em .01em rgba(100, 100, 100, 0.65);
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.subject-items {
+    height: auto;
+    width: 100%;
+}
+
+.subject-label {
+    width: auto;
+    font-size: 90%;
+}
+
+.subject-label:first-child {
+    font-size: 100%;
+}
+
+.addSubject {
+    padding: 5%;
+    height: 100%;
+    width: 100%;
+    border: .3em dashed rgba(100, 100, 100, 0.45);
+    border-radius: 1em;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.addSubject-icon {
+    width: 60%;
+    opacity: .35;
+    margin: auto;
+}
+
+.addSubject-box {
+    height: 100%;
+    width: 100%;
+}
+
+.addSubject-content {
+    height: calc(100% - 2.5em);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addSubject-goBack {
+    background: rgba(165, 80, 255, 0.817);
+    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    border: 0;
+    height: 2.5em;
+    width: 4em;
+    border-radius: .6em;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addSubject-goBack:hover {
+    background: rgba(155, 61, 255, 0.817);
+}
+
+.addSubject-goBack:active {
+    transform: translateY(2px);
+}
+
+.addSubject-goBack__icon {
+    height: 70%;
+    width: 90%;
+}
+
+.addSubject-form {
+    height: fit-content;
+    max-height: 85%;
+    width: 70%;
+    overflow: auto;
+    box-shadow: 0 0 .6em .01em rgba(100, 100, 100, 0.65);
+    border-radius: 1.5em;
+    box-sizing: border-box;
+}
+
+.addSubject-form::-webkit-scrollbar {
+    width: 0;
+}
+
+.addSubject-form__label {
+    padding-top: 4%;
+    width: fit-content;
+    margin: auto;
+    
+}
+
+.addSubject-form__inputs {
+    height: fit-content;
+    width: 70%;
+    padding-top: 4%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+
+    & p{
+        font-weight: bolder;
+    }
+
+    & .first-child {
+        width: 222%;
+    }
+
+    & input {
+        width: 100%;
+        margin: 1% 0;
+        border-radius: .4em;
+        border: none;
+        font-size: 100%;
+        color: #1e1e1e;
+        background-color: #e9eff9;
+        box-sizing: border-box;
+        padding: 2px .5em;
+    }
+}
+
+.addSubject-form__schedule {
+    padding-top: 8%;
+    padding-bottom: 4%;
+    width: 70%;
+    margin: auto;
+}
+
+.addSubject__Schedule__label {
+    font-weight: bolder;
+}
+
+.addSubject__schedule-grid {
+    min-height: fit-content;
+    width: 100%;
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    gap: 5%;
+}
+
+
+
+.addSubject-Schedule__inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+
+    & p {
+        display: inline;
+    }
+
+    & input, select {
+        border: 0;
+        width: 100%;
+        margin: .5% 0;
+        border-radius: .4em;
+        border: none;
+        color: #1e1e1e;
+        background-color: #e9eff9;
+        box-sizing: border-box;
+        padding: 2px .5em;
+    }
+}
+
+.addSubject-form__span {
+    z-index: -10;
+}
+
+.Schedule__day-input {
+    width: 100%;
+}
+
+.addSubject-Schedule__input-time {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & p {
+        height: fit-content;
+        width: 4%;
+    }
+}
+
+.Schedule__input-time {
+    width: 48%;
+}
+
+.addSubject__schedule-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+
+
+    & button {
+        height: 100%;
+        width: 45%;
+        position: relative;
+        box-sizing: border-box;
+        background-color: rgba(128, 128, 128, 0.1);
+        border: .2em dashed rgba(128, 128, 128, 0.65);
+        border-radius: .5em;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        & img {
+            width: 40%;
+            margin: auto;
+            opacity: .35;
+        }
+    }
+}
+
+
+.addSubject-form__buttons {
+    padding-bottom: 8%;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+
+    & button {
+        width: 80%;
+        padding: .6em 0;
+        margin: auto;
+        background: rgba(165, 80, 255, 0.817);
+        box-shadow: #5e5df0 0 10px 20px -10px;
+        box-sizing: border-box;
+        color: #ffffff;
+        border: 0;
+        border-radius: .6em;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+}
+
+.disabled-button {
+    cursor: default !important; 
+    opacity: .8;
+}
+
+.groups-box {
+    height: 100%;
+    width: 100%;
+}
+
+.groups-content{
+    padding-top: 2%;
+    height: calc(88% - 2.5em);
+    width: 100%;
+}
+
+.groups-content__buttons {
+    padding-bottom: 4%;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+
+    & button {
+        width: 80%;
+        padding: .6em 0;
+        margin: auto;
+        background: rgba(255, 80, 80, 0.817);
+        box-shadow: #5e5df0 0 10px 20px -10px;
+        box-sizing: border-box;
+        color: #ffffff;
+        border: 0;
+        border-radius: .6em;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+}
+
+.groups-content__buttons button:first-child {
+    background: rgba(80, 176, 255, 0.817);
+}
+
+.delete-box {
+    position: absolute;
+    height: 105%;
+    width: 85%;
+    top: -5%;
+    left: -5%;
+    backdrop-filter: blur(.2em);
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.delete-form {
+    position: relative;
+    height: fit-content;
+    width: 40%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0 0 1em .1em rgba(100, 100, 100, 0.65);
+    border-radius: .5em;
+}
+
+.delete__label {
+    width: fit-content;
+    font-size: 4vh;
+    margin: auto;
+    padding: 10% 0 2% 0;
+}
+
+.delete-input-box {
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+    width: 45%;
+    border-bottom: .2em solid rgba(121, 121, 121, 0.6);
+    box-sizing: border-box;
+}
+
+.delete-input__input {
+    width: calc(100% - 2em);
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: .25em 1.6em .25em .4em;
+}
+
+.delete-input__icon {
+    position: absolute;
+    font-size: 1em;
+    opacity: .7;
+    top: 25%;
+    right: .3em;
+}
+
+.delete-input__font-icon {
+    position: absolute;
+    font-size: 1em;
+    opacity: .7;
+    top: 25%;
+    right: .3em;
+    cursor: pointer;
+}
+
+.delete-input__error {
+    font-size: .9em;
+    line-height: 1;
+    text-align: center;
+    padding-top: 1%;
+    width: 45%;
+    margin: auto;
+    color: red;
+}
+
+.delete-buttons-box {
+    width: 50%;
+    margin: auto;
+    padding: 10% 0;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+
+    & button {
+        width: 100%;
+        padding: .4em 0;
+        margin: auto;
+        background: rgba(255, 80, 80, 0.817);
+        box-shadow: #5e5df0 0 10px 20px -10px;
+        box-sizing: border-box;
+        color: #ffffff;
+        border: 0;
+        border-radius: .6em;
+        cursor: pointer;
+    }
+}
+
+.delete-buttons-box button:first-child {
+    background: rgba(80, 176, 255, 0.817);
+}
+
+.group-box {
+    height: 100%;
+    width: 100%;
+}
+
+.addSubject-box-group {
+    height: 90.45%;
+}
+
+@media (orientation: portrait) {
+    .subjects-content {
+        grid-template-rows: repeat(4, 1fr);
+    }
+}

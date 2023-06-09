@@ -1,0 +1,28 @@
+.noteStudents {
+  margin: 0 15px;
+  padding: 35px 55px 0;
+}
+.img-table-notes {
+  background-color: white;
+  border-radius: 15px;
+}
+.btn-pdf {
+  position: relative;
+  top: -4vh;
+  right: -3vw;
+}
+.btn-notes {
+  position: relative;
+  top: -4vh;
+  right: -45vw;
+}
+
+@media screen and (min-width: 1400px) {
+  .btn-pdf {
+    top: -2vh;
+  }
+  .btn-notes {
+    top: -2vh;
+    right: -51vw;
+  }
+}
