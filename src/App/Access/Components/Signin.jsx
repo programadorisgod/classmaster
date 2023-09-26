@@ -40,7 +40,7 @@ export function Signin({ onFormSwitch }) {
 
   function signIn() {
     axios
-      .post(`https://server-classmaster-production.up.railway.app/api/auth/register`, {
+      .post(`https://serverclassmaster-mmh2-dev.fl0.io/api/auth/register`, {
         email: values.email,
         password: values.password,
       })
@@ -157,7 +157,7 @@ export function Signin({ onFormSwitch }) {
     } else {
       if (errors.validationError) {
         return (<p className="input__validation-error">
-          La cuenta ya existe. Intente con <br /> otra dirección de correo...
+          La cuenta ya existe. Intente con  <br />  otra dirección de correo...
         </p>)
       } else if (errors.validationError == false) {
         return (<p className="input__validation-successful">
@@ -221,7 +221,7 @@ export function Signin({ onFormSwitch }) {
 
         { handleConfirmPasswordError() }
 
-        <button className="form__button cursor_pointer">Crear cuenta</button>
+        <button  className="form__button cursor_pointer">Crear cuenta</button>
         <div className="form__register">
           <span>
             {"¿Ya tienes una cuenta? "}

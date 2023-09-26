@@ -35,7 +35,7 @@ export function AccountSetup({user, toggleAccountSetup, updateState}) {
         const fetchingData = () => {
           axios
             .get(
-              `https://server-classmaster-production.up.railway.app/api/users/${user.email}`,
+              `https://serverclassmaster-mmh2-dev.fl0.io/api/users/${user.email}`,
               { headers: { Authorization: `Bearer ${user.tokenSession}` } }
             )
             .then((Response) => {
@@ -59,7 +59,7 @@ export function AccountSetup({user, toggleAccountSetup, updateState}) {
 
     useEffect(() => {
         if (deleteAccount) {
-            axios.delete(`https://server-classmaster-production.up.railway.app/api/users/${user.email}`,
+            axios.delete(`https://serverclassmaster-mmh2-dev.fl0.io/api/users/${user.email}`,
             { headers: { Authorization: `Bearer ${user.tokenSession}` } })
             .then(() => {
                 window.location.href = "./login"
@@ -115,7 +115,7 @@ export function AccountSetup({user, toggleAccountSetup, updateState}) {
     
             axios
                 .patch(
-                `https://server-classmaster-production.up.railway.app/api/users/${user.email}`,
+                `https://serverclassmaster-mmh2-dev.fl0.io/api/users/${user.email}`,
                 formData,
                 {
                     headers: {
