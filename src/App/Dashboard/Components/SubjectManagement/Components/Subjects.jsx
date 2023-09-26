@@ -16,7 +16,7 @@ export function Subjects({ user }) {
   function getSubjects() {
     axios
       .get(
-        `https://server-classmaster-production.up.railway.app/api/subjects/${user.email}`,
+        `http://localhost:3030/api/subjects/${user.email}`,
         { headers: { Authorization: `Bearer ${user.tokenSession}` } }
       )
       .then((Response) => {

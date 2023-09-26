@@ -40,7 +40,7 @@ export function Signin({ onFormSwitch }) {
 
   function signIn() {
     axios
-      .post(`https://serverclassmaster-mmh2-dev.fl0.io/api/auth/register`, {
+      .post(`http://localhost:3030/api/auth/register`, {
         email: values.email,
         password: values.password,
       })

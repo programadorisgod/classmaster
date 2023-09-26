@@ -22,7 +22,7 @@ export function ListHeader({user, setData}) {
         const fetchSubjects = async () => {
             try {
                 const response = await axios.get(
-                    `https://server-classmaster-production.up.railway.app/api/subjects/${user.email}`,
+                    `http://localhost:3030/api/subjects/${user.email}`,
                     { headers: { Authorization: `Bearer ${user.tokenSession}` } }
                 );
                 setSubjects(response.data);

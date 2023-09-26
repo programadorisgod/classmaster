@@ -51,7 +51,7 @@ export function ListStudents({ Option, user }) {
   async function getAllStudents() {
     try {
       const response = await axios.get(
-        `https://server-classmaster-production.up.railway.app/api/students/${user.email}`,
+        `http://localhost:3030/api/students/${user.email}`,
         { headers: { Authorization: `Bearer ${user.tokenSession}` } }
       );
       setStudents(response.data);
@@ -68,7 +68,7 @@ export function ListStudents({ Option, user }) {
     if (data.subject !== undefined && data.group !== undefined) {
       try {
         const response = await axios.get(
-          `https://server-classmaster-production.up.railway.app/api/students/${user.email}/${data.subject}`,
+          `http://localhost:3030/api/students/${user.email}/${data.subject}`,
           { headers: { Authorization: `Bearer ${user.tokenSession}` } }
         );
         setStudents(response.data);
@@ -87,7 +87,7 @@ export function ListStudents({ Option, user }) {
     if (data.group !== "" && data.group !== undefined) {
       try {
         const response = await axios.get(
-          `https://server-classmaster-production.up.railway.app/api/students/${user.email}/${data.subject}/${data.group}`,
+          `http://localhost:3030/api/students/${user.email}/${data.subject}/${data.group}`,
           { headers: { Authorization: `Bearer ${user.tokenSession}` } }
         );
         setStudents(response.data);
@@ -124,7 +124,7 @@ export function ListStudents({ Option, user }) {
   const handleDeleteStudent = (studentId) => {
     const result = window.confirm(`¿Deseas eliminar el estudiante con N° de identificación: ${studentId}?`);
     if (result) {
-      axios.delete(`https://server-classmaster-production.up.railway.app/api/students/${user.email}/${data.subject}/${data.group}/${studentId}`,
+      axios.delete(`http://localhost:3030/api/students/${user.email}/${data.subject}/${data.group}/${studentId}`,
         { headers: { Authorization: `Bearer ${user.tokenSession}` } })
         .then(() => {
           setShowAlert(true);
@@ -177,7 +177,7 @@ export function ListStudents({ Option, user }) {
                     <img
                       src={
                         student.avatar ===
-                          "https://server-classmaster-production.up.railway.app/api/images/undefined"
+                          "http://localhost:3030/api/images/undefined"
                           ? profile
                           : student.avatar
                       }

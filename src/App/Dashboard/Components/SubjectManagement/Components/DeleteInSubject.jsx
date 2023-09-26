@@ -21,7 +21,7 @@ export function DeleteInSubject({user, setState, cancel, title = "Confirmar elim
         e.preventDefault()
         if (values.passwordError == "" && values.confirmPasswordError == "") {
             await axios
-            .post("https://server-classmaster-production.up.railway.app/api/auth/login", { email: user.email, password: values.password })
+            .post("http://localhost:3030/api/auth/login", { email: user.email, password: values.password })
             .then(response => {
                 if (response.data.user._id == user.id) {
                     setState(true)
@@ -90,7 +90,7 @@ export function DeleteInSubject({user, setState, cancel, title = "Confirmar elim
             <h3 className="delete__label">{title}</h3>
             <div className="delete-input-box">
 
-                <input required name="password" type={values.passwordShown ? "text" : "password"} className="delete-input__input" placeholder="Contraseña" onChange={handleInput} onBlur={() => { onBlurPasswordInput() }} value={values.password} />
+                <input required name="password" id="password" type={values.passwordShown ? "text" : "password"} className="delete-input__input" placeholder="Contraseña" onChange={handleInput} onBlur={() => { onBlurPasswordInput() }} value={values.password} />
                 {setIconPassword()}
 
             </div>
@@ -107,7 +107,7 @@ export function DeleteInSubject({user, setState, cancel, title = "Confirmar elim
             {confirmPasswordInputError()}
 
             <div className="delete-buttons-box">
-                <button type="submit" className="delete__button" >Aceptar</button>
+                <button type="submit" className="delete__button" id="delete__button" >Aceptar</button>
                 <button type="button" className="delete__button" onClick={() => {cancel()}} >Cancelar</button>
             </div>
         </form>

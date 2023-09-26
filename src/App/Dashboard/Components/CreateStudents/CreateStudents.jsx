@@ -52,7 +52,7 @@ function CreateStudents({ user, selected }) {
     const handleSubjects = () => {
       axios
         .get(
-          `https://server-classmaster-production.up.railway.app/api/subjects/${user.email}`,
+          `http://localhost:3030/api/subjects/${user.email}`,
           { headers: { Authorization: `Bearer ${user.tokenSession}` } }
         )
         .then((response) => setSubjects(response.data));
@@ -98,7 +98,7 @@ function CreateStudents({ user, selected }) {
     }
       axios
         .post(
-          `https://server-classmaster-production.up.railway.app/api/students/${user.email}`,
+          `http://localhost:3030/api/students/${user.email}`,
           Data,
           {
             headers: {
@@ -127,7 +127,7 @@ function CreateStudents({ user, selected }) {
     const forData = new FormData();
     forData.append("template", file); 
     axios
-      .post(`https://server-classmaster-production.up.railway.app/api/students/excel/${user.email}`, forData, {
+      .post(`http://localhost:3030/api/students/excel/${user.email}`, forData, {
         headers: {
           Authorization: `Bearer ${user.tokenSession}`,
           "Content-Type": "multipart/form-data",
@@ -147,7 +147,7 @@ function CreateStudents({ user, selected }) {
   const handlePlantilla = () => {
     axios
       .get(
-        "https://server-classmaster-production.up.railway.app/api/template/template.xlsx",
+        "http://localhost:3030/api/template/template.xlsx",
         {
           headers: {
             Authorization: `Bearer ${user.tokenSession}`,

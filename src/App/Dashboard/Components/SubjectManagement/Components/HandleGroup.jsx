@@ -22,7 +22,7 @@ export function HandleGroup({ user, subject, group, handlePassGroups, getGroups 
 
   function deleteGroup() {
     axios.delete(
-        `https://server-classmaster-production.up.railway.app/api/subjects/deletegroup/${user.email}/${subject.code}/${group.name}`,
+        `http://localhost:3030/api/subjects/deletegroup/${user.email}/${subject.code}/${group.name}`,
         {   headers: { Authorization: `Bearer ${user.tokenSession}` }   }
     ).then(() => {
         getGroups()

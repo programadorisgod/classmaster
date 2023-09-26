@@ -19,7 +19,7 @@ export function Groups({ user, code, subject, handlePassSubjects, getSubjects })
   function getGroups() {
     axios
       .get(
-        `https://server-classmaster-production.up.railway.app/api/subjects/${user.email}/${code}`,
+        `http://localhost:3030/api/subjects/${user.email}/${code}`,
         { headers: { Authorization: `Bearer ${user.tokenSession}` } }
       )
       .then((Response) => {
@@ -36,7 +36,7 @@ export function Groups({ user, code, subject, handlePassSubjects, getSubjects })
 
   async function deleteSubject() {
     await axios.delete(
-        `https://server-classmaster-production.up.railway.app/api/subjects/${user.email}/${code}`,
+        `http://localhost:3030/api/subjects/${user.email}/${code}`,
         {   headers: { Authorization: `Bearer ${user.tokenSession}` }   }
       )
       .then(() => {

@@ -45,7 +45,7 @@ export function ModalEdit({formData, modalIsOpen, setModalIsOpen, setFormData, d
         if (data.subject !== "" && data.group !== "" && data.subject !== undefined && data.group !== undefined) {
             axios
                 .patch(
-                    `https://server-classmaster-production.up.railway.app/api/students/${user.email}/${data.subject}/${data.group}/${formData.id}`,
+                    `http://localhost:3030/api/students/${user.email}/${data.subject}/${data.group}/${formData.id}`,
                     Data,
                     {
                         headers: {
@@ -97,7 +97,7 @@ export function ModalEdit({formData, modalIsOpen, setModalIsOpen, setFormData, d
                 Editar estudiante
             </h2>
         <form className="form_editStudent"onSubmit={NewStudent} width={100}>
-                <img src={formData.avatar === "https://server-classmaster-production.up.railway.app/api/images/undefined" ? profile : formData.avatar } alt='foto' className='CreateStudents_foto' />
+                <img src={formData.avatar === "http://localhost:3030/api/images/undefined" ? profile : formData.avatar } alt='foto' className='CreateStudents_foto' />
             <input
                 className=' input-foto'
                     style={{

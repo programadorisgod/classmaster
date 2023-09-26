@@ -18,7 +18,7 @@ export function CompleteSetup({ user, toggleFullSetup }) {
     const fetchingData = () => {
       axios
         .get(
-          `https://server-classmaster-production.up.railway.app/api/users/${user.email}`,
+          `http://localhost:3030/api/users/${user.email}`,
           { headers: { Authorization: `Bearer ${user.tokenSession}` } }
         )
         .then((Response) => {
@@ -46,7 +46,7 @@ export function CompleteSetup({ user, toggleFullSetup }) {
     try {
       axios
         .patch(
-          `https://server-classmaster-production.up.railway.app/api/users/${user.email}`,
+          `http://localhost:3030/api/users/${user.email}`,
           formData,
           {
             headers: {

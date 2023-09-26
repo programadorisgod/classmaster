@@ -31,7 +31,7 @@ export function AttendanceStudents({Option, user}) {
     async function getAllStudents() {
         try {
             const response = await axios.get(
-                `https://server-classmaster-production.up.railway.app/api/students/${user.email}`,
+                `http://localhost:3030/api/students/${user.email}`,
                 { headers: { Authorization: `Bearer ${user.tokenSession}` } }
             );
             setStudents(response.data);
@@ -49,7 +49,7 @@ export function AttendanceStudents({Option, user}) {
         if (data.subject !== undefined && data.group !== undefined) {
             try {
                 const response = await axios.get(
-                    `https://server-classmaster-production.up.railway.app/api/students/${user.email}/${data.subject}`,
+                    `http://localhost:3030/api/students/${user.email}/${data.subject}`,
                     { headers: { Authorization: `Bearer ${user.tokenSession}` } }
                 );
                 setStudents(response.data);
@@ -70,7 +70,7 @@ export function AttendanceStudents({Option, user}) {
         if (data.group !== "" && data.group !== undefined) {
             try {
                 const response = await axios.get(
-                    `https://server-classmaster-production.up.railway.app/api/students/${user.email}/${data.subject}/${data.group}`,
+                    `http://localhost:3030/api/students/${user.email}/${data.subject}/${data.group}`,
                     { headers: { Authorization: `Bearer ${user.tokenSession}` } }
                 );
                 setStudents(response.data);
@@ -125,7 +125,7 @@ export function AttendanceStudents({Option, user}) {
         if (data.group !== "" && data.group !== undefined && date !== undefined) {
             try {
                 const response = await axios.get(
-                    `https://server-classmaster-production.up.railway.app/api/students/Date/${user.email}/${data.subject}/${data.group}/${date.toString()}`,
+                    `http://localhost:3030/api/students/Date/${user.email}/${data.subject}/${data.group}/${date.toString()}`,
                     { headers: { Authorization: `Bearer ${user.tokenSession}` } }
                 );
                 const history = response.data;
@@ -142,7 +142,7 @@ export function AttendanceStudents({Option, user}) {
     //REGISTRO DE ASISTENCIA
     function patchAttendance(studentId, attendance) {
         if (data.group !== "" && data.group !== undefined && date === actualDate) {
-            return axios.patch(`https://server-classmaster-production.up.railway.app/api/students/asistencia/${user.email}/${studentId}/${data.subject}/${data.group}`,
+            return axios.patch(`http://localhost:3030/api/students/asistencia/${user.email}/${studentId}/${data.subject}/${data.group}`,
                     { attendance: [{ date: actualDate.toString(), status: attendance }] },
                     { headers: { Authorization: `Bearer ${user.tokenSession}` } }
                 );
@@ -277,7 +277,7 @@ export function AttendanceStudents({Option, user}) {
                                         <img
                                             src={
                                                 student.avatar ===
-                                                    "https://server-classmaster-production.up.railway.app/api/images/undefined"
+                                                    "http://localhost:3030/api/images/undefined"
                                                     ? profile
                                                     : student.avatar
                                             }

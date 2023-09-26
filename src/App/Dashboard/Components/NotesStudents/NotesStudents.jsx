@@ -47,7 +47,7 @@ export function NotesStudents({ user }) {
     async function getAllStudents() {
         try {
             const response = await axios.get(
-                `https://server-classmaster-production.up.railway.app/api/students/${user.email}`,
+                `http://localhost:3030/api/students/${user.email}`,
                 { headers: { Authorization: `Bearer ${user.tokenSession}` } }
             );
             setStudents(response.data);
@@ -64,7 +64,7 @@ export function NotesStudents({ user }) {
         if (data.subject !== undefined && data.group !== undefined) {
             try {
                 const response = await axios.get(
-                    `https://server-classmaster-production.up.railway.app/api/students/${user.email}/${data.subject}`,
+                    `http://localhost:3030/api/students/${user.email}/${data.subject}`,
                     { headers: { Authorization: `Bearer ${user.tokenSession}` } }
                 );
                 setStudents(response.data);
@@ -83,7 +83,7 @@ export function NotesStudents({ user }) {
         if (data.group !== "" && data.group !== undefined) {
             try {
                 const response = await axios.get(
-                    `https://server-classmaster-production.up.railway.app/api/students/${user.email}/${data.subject}/${data.group}`,
+                    `http://localhost:3030/api/students/${user.email}/${data.subject}/${data.group}`,
                     { headers: { Authorization: `Bearer ${user.tokenSession}` } }
                 );
                 setStudents(response.data);
@@ -105,7 +105,7 @@ export function NotesStudents({ user }) {
     const handlePDF = () => {
         axios
             .get(
-                `https://server-classmaster-production.up.railway.app/api/students/archivo/exportarPDF/${user.email}/${data.subject}/${data.group}`,
+                `http://localhost:3030/api/students/archivo/exportarPDF/${user.email}/${data.subject}/${data.group}`,
                 {
                     responseType: 'arraybuffer',
                     headers: {
@@ -198,7 +198,7 @@ export function NotesStudents({ user }) {
 
     const patchNote = (studentId, value, index) => {
         return axios.patch(
-            `https://server-classmaster-production.up.railway.app/api/students/notes/${user.email}/${studentId}/${data.subject}/${data.group}`,
+            `http://localhost:3030/api/students/notes/${user.email}/${studentId}/${data.subject}/${data.group}`,
             { note: value, index: index },
             {
                 headers: {
@@ -317,7 +317,7 @@ export function NotesStudents({ user }) {
                                             className="img-table-notes"
                                             src={
                                                 student.avatar ===
-                                                    "https://server-classmaster-production.up.railway.app/api/images/undefined"
+                                                    "http://localhost:3030/api/images/undefined"
                                                     ? profile
                                                     : student.avatar
                                             }

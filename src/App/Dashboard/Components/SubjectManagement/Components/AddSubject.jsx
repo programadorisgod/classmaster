@@ -83,7 +83,7 @@ export function AddSubject ({ user, subject = {name: "", code: ""}, isEdit = "",
 
   function editGroupSubmit() {
     axios
-      .patch(`https://server-classmaster-production.up.railway.app/api/subjects/${user.email}/${subject.code}`, 
+      .patch(`http://localhost:3030/api/subjects/${user.email}/${subject.code}`, 
         {
           currentGroup: groupName,
           groups: [
@@ -120,7 +120,7 @@ export function AddSubject ({ user, subject = {name: "", code: ""}, isEdit = "",
 
   function addGroupSubmit() {
     axios
-      .patch(`https://server-classmaster-production.up.railway.app/api/subjects/creategroup/${user.email}/${subject.code}`, 
+      .patch(`http://localhost:3030/api/subjects/creategroup/${user.email}/${subject.code}`, 
         {
           groups: [
             {
@@ -152,7 +152,7 @@ export function AddSubject ({ user, subject = {name: "", code: ""}, isEdit = "",
 
   function editSubjectSubmit() {
     axios
-      .patch(`https://server-classmaster-production.up.railway.app/api/subjects/${user.email}/${subject.code}`, 
+      .patch(`http://localhost:3030/api/subjects/${user.email}/${subject.code}`, 
         {
           name: values.name
         }, 
@@ -174,7 +174,7 @@ export function AddSubject ({ user, subject = {name: "", code: ""}, isEdit = "",
 
   function addSubjectSubmit() {
     axios
-      .post(`https://server-classmaster-production.up.railway.app/api/subjects/${user.email}`, 
+      .post(`http://localhost:3030/api/subjects/${user.email}`, 
         {
           code: values.code,
           name: values.name,
