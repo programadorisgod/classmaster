@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 import imagen  from '../../../Images/Logo.png';
-import { hotjar } from 'react-hotjar';
+import Hotjar from '@hotjar/browser';
 
 export function Header() {
     const siteId = 3670889;
-    const hotjarVersion = 6;  
-    hotjar.initialize(siteId, hotjarVersion)
+const hotjarVersion = 6;
+
+Hotjar.init(siteId, hotjarVersion);
     return(
         <header className="header">
             
