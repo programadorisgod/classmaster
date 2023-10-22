@@ -1,0 +1,65 @@
+"filename", "language", "JavaScript", "JSON", "JavaScript JSX", "HTML", "XML", "CSS", "comment", "blank", "total"
+"/home/camilo/Documentos/dev/Proyectos/classmaster/cypress.config.js", "JavaScript", 7, 0, 0, 0, 0, 0, 1, 2, 10
+"/home/camilo/Documentos/dev/Proyectos/classmaster/cypress/e2e/spec.cy.js", "JavaScript", 42, 0, 0, 0, 0, 0, 2, 25, 69
+"/home/camilo/Documentos/dev/Proyectos/classmaster/cypress/fixtures/example.json", "JSON", 0, 5, 0, 0, 0, 0, 0, 1, 6
+"/home/camilo/Documentos/dev/Proyectos/classmaster/cypress/support/commands.js", "JavaScript", 0, 0, 0, 0, 0, 0, 25, 0, 25
+"/home/camilo/Documentos/dev/Proyectos/classmaster/cypress/support/e2e.js", "JavaScript", 1, 0, 0, 0, 0, 0, 17, 2, 20
+"/home/camilo/Documentos/dev/Proyectos/classmaster/index.html", "HTML", 0, 0, 0, 13, 0, 0, 0, 1, 14
+"/home/camilo/Documentos/dev/Proyectos/classmaster/package-lock.json", "JSON", 0, 8456, 0, 0, 0, 0, 0, 1, 8457
+"/home/camilo/Documentos/dev/Proyectos/classmaster/package.json", "JSON", 0, 46, 0, 0, 0, 0, 0, 1, 47
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Access/Access.jsx", "JavaScript JSX", 0, 0, 19, 0, 0, 0, 0, 3, 22
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Access/Components/Login.jsx", "JavaScript JSX", 0, 0, 160, 0, 0, 0, 0, 19, 179
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Access/Components/Signin.jsx", "JavaScript JSX", 0, 0, 219, 0, 0, 0, 0, 21, 240
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Access/Components/Validation.js", "JavaScript", 26, 0, 0, 0, 0, 0, 0, 6, 32
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Access/Css/Login.css", "CSS", 0, 0, 0, 0, 0, 184, 0, 28, 212
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/App.jsx", "JavaScript JSX", 0, 0, 26, 0, 0, 0, 0, 5, 31
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/AccountSetup/AccountSetup.jsx", "JavaScript JSX", 0, 0, 351, 0, 0, 0, 0, 28, 379
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/AccountSetup/Styles.css", "CSS", 0, 0, 0, 0, 0, 176, 0, 26, 202
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/AttendanceStudents/AttendanceStudents.jsx", "JavaScript JSX", 0, 0, 299, 0, 0, 0, 7, 25, 331
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/AttendanceStudents/Checkboxs.jsx", "JavaScript JSX", 0, 0, 89, 0, 0, 0, 0, 7, 96
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/AttendanceStudents/Styles.css", "CSS", 0, 0, 0, 0, 0, 60, 0, 2, 62
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/CompleteSetup/CompleteSetup.jsx", "JavaScript JSX", 0, 0, 214, 0, 0, 0, 0, 11, 225
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/CompleteSetup/Styles.css", "CSS", 0, 0, 0, 0, 0, 196, 0, 25, 221
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/CreateStudents/CreateStudents.jsx", "JavaScript JSX", 0, 0, 313, 0, 0, 0, 7, 12, 332
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/CreateStudents/Styles/Styles.css", "CSS", 0, 0, 0, 0, 0, 94, 0, 11, 105
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/DataTable/Styles.css", "CSS", 0, 0, 0, 0, 0, 123, 0, 13, 136
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/DataTable/Tooltip.jsx", "JavaScript JSX", 0, 0, 10, 0, 0, 0, 0, 2, 12
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/ListHeader/ListHeader.jsx", "JavaScript JSX", 0, 0, 81, 0, 0, 0, 2, 13, 96
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/ListHeader/Styles.css", "CSS", 0, 0, 0, 0, 0, 7, 0, 1, 8
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/ListStudents/ListStudents.jsx", "JavaScript JSX", 0, 0, 207, 0, 0, 0, 1, 21, 229
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/ListStudents/ModalEdit.jsx", "JavaScript JSX", 0, 0, 216, 0, 0, 0, 0, 9, 225
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/ListStudents/Styles.css", "CSS", 0, 0, 0, 0, 0, 4, 0, 0, 4
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Navbar.jsx", "JavaScript JSX", 0, 0, 53, 0, 0, 0, 0, 6, 59
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/NotesStudents/Notes.jsx", "JavaScript JSX", 0, 0, 126, 0, 0, 0, 0, 7, 133
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/NotesStudents/NotesStudents.jsx", "JavaScript JSX", 0, 0, 334, 0, 0, 0, 3, 27, 364
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/NotesStudents/Styles.css", "CSS", 0, 0, 0, 0, 0, 27, 0, 2, 29
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Notification/AttendanceNotification.jsx", "JavaScript JSX", 0, 0, 32, 0, 0, 0, 0, 5, 37
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Notification/Styles.css", "CSS", 0, 0, 0, 0, 0, 54, 0, 7, 61
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Schedule/Components/GroupSchedule.jsx", "JavaScript JSX", 0, 0, 20, 0, 0, 0, 0, 5, 25
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Schedule/Components/Schedule.jsx", "JavaScript JSX", 0, 0, 59, 0, 0, 0, 0, 6, 65
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Schedule/Components/SubjectSchedule.jsx", "JavaScript JSX", 0, 0, 62, 0, 0, 0, 0, 5, 67
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Schedule/Styles.css", "CSS", 0, 0, 0, 0, 0, 173, 0, 32, 205
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Sidebar.jsx", "JavaScript JSX", 0, 0, 147, 0, 0, 0, 0, 7, 154
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/AddSubject.jsx", "JavaScript JSX", 0, 0, 237, 0, 0, 0, 0, 14, 251
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/AddSubjectSchedule.jsx", "JavaScript JSX", 0, 0, 46, 0, 0, 0, 0, 6, 52
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/DeleteInSubject.jsx", "JavaScript JSX", 0, 0, 116, 0, 0, 0, 0, 21, 137
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/Group.jsx", "JavaScript JSX", 0, 0, 10, 0, 0, 0, 0, 1, 11
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/Groups.jsx", "JavaScript JSX", 0, 0, 88, 0, 0, 0, 0, 10, 98
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/HandleGroup.jsx", "JavaScript JSX", 0, 0, 41, 0, 0, 0, 0, 7, 48
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/Subject.jsx", "JavaScript JSX", 0, 0, 12, 0, 0, 0, 0, 2, 14
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/Subjects.jsx", "JavaScript JSX", 0, 0, 49, 0, 0, 0, 0, 6, 55
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Styles.css", "CSS", 0, 0, 0, 0, 0, 376, 0, 61, 437
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Dashboard.jsx", "JavaScript JSX", 0, 0, 113, 0, 0, 0, 1, 15, 129
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Styles/Styles.css", "CSS", 0, 0, 0, 0, 0, 184, 2, 7, 193
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Home/Components/Header.jsx", "JavaScript JSX", 0, 0, 11, 0, 0, 0, 0, 3, 14
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Home/Components/Main.jsx", "JavaScript JSX", 0, 0, 26, 0, 0, 0, 0, 2, 28
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Home/Css/Styles.css", "CSS", 0, 0, 0, 0, 0, 139, 2, 14, 155
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Home/Home.jsx", "JavaScript JSX", 0, 0, 9, 0, 0, 0, 0, 1, 10
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/PageError/Css/Error.css", "CSS", 0, 0, 0, 0, 0, 1565, 0, 45, 1610
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/App/PageError/Error.jsx", "JavaScript JSX", 0, 0, 143, 0, 0, 0, 0, 2, 145
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/Images/iconmonstr-line-one-horizontal-lined.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 0, 1
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/Images/iconmonstr-plus-lined.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 0, 1
+"/home/camilo/Documentos/dev/Proyectos/classmaster/src/Images/iconmonstr-plus-thin.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 0, 1
+"/home/camilo/Documentos/dev/Proyectos/classmaster/vercel.json", "JSON", 0, 8, 0, 0, 0, 0, 0, 1, 9
+"/home/camilo/Documentos/dev/Proyectos/classmaster/vite.config.js", "JavaScript", 5, 0, 0, 0, 0, 0, 1, 2, 8
+"Total", "-", 81, 8515, 3938, 13, 3, 3362, 71, 650, 16633

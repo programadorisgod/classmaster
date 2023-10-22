@@ -1,0 +1,134 @@
+Date : 2023-10-21 14:49:42
+Directory : /home/camilo/Documentos/dev/Proyectos/classmaster
+Total : 63 files,  15912 codes, 71 comments, 650 blanks, all 16633 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          4 |      8,515 |          0 |          4 |      8,519 |
+| JavaScript JSX |         34 |      3,938 |         21 |        334 |      4,293 |
+| CSS            |         15 |      3,362 |          4 |        274 |      3,640 |
+| JavaScript     |          6 |         81 |         46 |         37 |        164 |
+| HTML           |          1 |         13 |          0 |          1 |         14 |
+| XML            |          3 |          3 |          0 |          0 |          3 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                               | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                  |         63 |     15,912 |         71 |        650 |     16,633 |
+| . (Files)                                                                                                                          |          6 |      8,535 |          2 |          8 |      8,545 |
+| cypress                                                                                                                            |          4 |         48 |         44 |         28 |        120 |
+| cypress/e2e                                                                                                                        |          1 |         42 |          2 |         25 |         69 |
+| cypress/fixtures                                                                                                                   |          1 |          5 |          0 |          1 |          6 |
+| cypress/support                                                                                                                    |          2 |          1 |         42 |          2 |         45 |
+| src                                                                                                                                |         53 |      7,329 |         25 |        614 |      7,968 |
+| src/App                                                                                                                            |         50 |      7,326 |         25 |        614 |      7,965 |
+| src/App (Files)                                                                                                                    |          1 |         26 |          0 |          5 |         31 |
+| src/App/Access                                                                                                                     |          5 |        608 |          0 |         77 |        685 |
+| src/App/Access (Files)                                                                                                             |          1 |         19 |          0 |          3 |         22 |
+| src/App/Access/Components                                                                                                          |          3 |        405 |          0 |         46 |        451 |
+| src/App/Access/Css                                                                                                                 |          1 |        184 |          0 |         28 |        212 |
+| src/App/Dashboard                                                                                                                  |         38 |      4,799 |         23 |        465 |      5,287 |
+| src/App/Dashboard (Files)                                                                                                          |          1 |        113 |          1 |         15 |        129 |
+| src/App/Dashboard/Components                                                                                                       |         36 |      4,502 |         20 |        443 |      4,965 |
+| src/App/Dashboard/Components (Files)                                                                                               |          2 |        200 |          0 |         13 |        213 |
+| src/App/Dashboard/Components/AccountSetup                                                                                          |          2 |        527 |          0 |         54 |        581 |
+| src/App/Dashboard/Components/AttendanceStudents                                                                                    |          3 |        448 |          7 |         34 |        489 |
+| src/App/Dashboard/Components/CompleteSetup                                                                                         |          2 |        410 |          0 |         36 |        446 |
+| src/App/Dashboard/Components/CreateStudents                                                                                        |          2 |        407 |          7 |         23 |        437 |
+| src/App/Dashboard/Components/CreateStudents (Files)                                                                                |          1 |        313 |          7 |         12 |        332 |
+| src/App/Dashboard/Components/CreateStudents/Styles                                                                                 |          1 |         94 |          0 |         11 |        105 |
+| src/App/Dashboard/Components/DataTable                                                                                             |          2 |        133 |          0 |         15 |        148 |
+| src/App/Dashboard/Components/ListHeader                                                                                            |          2 |         88 |          2 |         14 |        104 |
+| src/App/Dashboard/Components/ListStudents                                                                                          |          3 |        427 |          1 |         30 |        458 |
+| src/App/Dashboard/Components/NotesStudents                                                                                         |          3 |        487 |          3 |         36 |        526 |
+| src/App/Dashboard/Components/Notification                                                                                          |          2 |         86 |          0 |         12 |         98 |
+| src/App/Dashboard/Components/Schedule                                                                                              |          4 |        314 |          0 |         48 |        362 |
+| src/App/Dashboard/Components/Schedule (Files)                                                                                      |          1 |        173 |          0 |         32 |        205 |
+| src/App/Dashboard/Components/Schedule/Components                                                                                   |          3 |        141 |          0 |         16 |        157 |
+| src/App/Dashboard/Components/SubjectManagement                                                                                     |          9 |        975 |          0 |        128 |      1,103 |
+| src/App/Dashboard/Components/SubjectManagement (Files)                                                                             |          1 |        376 |          0 |         61 |        437 |
+| src/App/Dashboard/Components/SubjectManagement/Components                                                                          |          8 |        599 |          0 |         67 |        666 |
+| src/App/Dashboard/Styles                                                                                                           |          1 |        184 |          2 |          7 |        193 |
+| src/App/Home                                                                                                                       |          4 |        185 |          2 |         20 |        207 |
+| src/App/Home (Files)                                                                                                               |          1 |          9 |          0 |          1 |         10 |
+| src/App/Home/Components                                                                                                            |          2 |         37 |          0 |          5 |         42 |
+| src/App/Home/Css                                                                                                                   |          1 |        139 |          2 |         14 |        155 |
+| src/App/PageError                                                                                                                  |          2 |      1,708 |          0 |         47 |      1,755 |
+| src/App/PageError (Files)                                                                                                          |          1 |        143 |          0 |          2 |        145 |
+| src/App/PageError/Css                                                                                                              |          1 |      1,565 |          0 |         45 |      1,610 |
+| src/Images                                                                                                                         |          3 |          3 |          0 |          0 |          3 |
++------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                                           | language       | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| /home/camilo/Documentos/dev/Proyectos/classmaster/cypress.config.js                                                                | JavaScript     |          7 |          1 |          2 |         10 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/cypress/e2e/spec.cy.js                                                           | JavaScript     |         42 |          2 |         25 |         69 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/cypress/fixtures/example.json                                                    | JSON           |          5 |          0 |          1 |          6 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/cypress/support/commands.js                                                      | JavaScript     |          0 |         25 |          0 |         25 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/cypress/support/e2e.js                                                           | JavaScript     |          1 |         17 |          2 |         20 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/index.html                                                                       | HTML           |         13 |          0 |          1 |         14 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/package-lock.json                                                                | JSON           |      8,456 |          0 |          1 |      8,457 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/package.json                                                                     | JSON           |         46 |          0 |          1 |         47 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Access/Access.jsx                                                        | JavaScript JSX |         19 |          0 |          3 |         22 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Access/Components/Login.jsx                                              | JavaScript JSX |        160 |          0 |         19 |        179 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Access/Components/Signin.jsx                                             | JavaScript JSX |        219 |          0 |         21 |        240 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Access/Components/Validation.js                                          | JavaScript     |         26 |          0 |          6 |         32 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Access/Css/Login.css                                                     | CSS            |        184 |          0 |         28 |        212 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/App.jsx                                                                  | JavaScript JSX |         26 |          0 |          5 |         31 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/AccountSetup/AccountSetup.jsx                       | JavaScript JSX |        351 |          0 |         28 |        379 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/AccountSetup/Styles.css                             | CSS            |        176 |          0 |         26 |        202 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/AttendanceStudents/AttendanceStudents.jsx           | JavaScript JSX |        299 |          7 |         25 |        331 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/AttendanceStudents/Checkboxs.jsx                    | JavaScript JSX |         89 |          0 |          7 |         96 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/AttendanceStudents/Styles.css                       | CSS            |         60 |          0 |          2 |         62 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/CompleteSetup/CompleteSetup.jsx                     | JavaScript JSX |        214 |          0 |         11 |        225 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/CompleteSetup/Styles.css                            | CSS            |        196 |          0 |         25 |        221 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/CreateStudents/CreateStudents.jsx                   | JavaScript JSX |        313 |          7 |         12 |        332 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/CreateStudents/Styles/Styles.css                    | CSS            |         94 |          0 |         11 |        105 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/DataTable/Styles.css                                | CSS            |        123 |          0 |         13 |        136 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/DataTable/Tooltip.jsx                               | JavaScript JSX |         10 |          0 |          2 |         12 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/ListHeader/ListHeader.jsx                           | JavaScript JSX |         81 |          2 |         13 |         96 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/ListHeader/Styles.css                               | CSS            |          7 |          0 |          1 |          8 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/ListStudents/ListStudents.jsx                       | JavaScript JSX |        207 |          1 |         21 |        229 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/ListStudents/ModalEdit.jsx                          | JavaScript JSX |        216 |          0 |          9 |        225 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/ListStudents/Styles.css                             | CSS            |          4 |          0 |          0 |          4 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Navbar.jsx                                          | JavaScript JSX |         53 |          0 |          6 |         59 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/NotesStudents/Notes.jsx                             | JavaScript JSX |        126 |          0 |          7 |        133 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/NotesStudents/NotesStudents.jsx                     | JavaScript JSX |        334 |          3 |         27 |        364 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/NotesStudents/Styles.css                            | CSS            |         27 |          0 |          2 |         29 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Notification/AttendanceNotification.jsx             | JavaScript JSX |         32 |          0 |          5 |         37 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Notification/Styles.css                             | CSS            |         54 |          0 |          7 |         61 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Schedule/Components/GroupSchedule.jsx               | JavaScript JSX |         20 |          0 |          5 |         25 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Schedule/Components/Schedule.jsx                    | JavaScript JSX |         59 |          0 |          6 |         65 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Schedule/Components/SubjectSchedule.jsx             | JavaScript JSX |         62 |          0 |          5 |         67 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Schedule/Styles.css                                 | CSS            |        173 |          0 |         32 |        205 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/Sidebar.jsx                                         | JavaScript JSX |        147 |          0 |          7 |        154 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/AddSubject.jsx         | JavaScript JSX |        237 |          0 |         14 |        251 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/AddSubjectSchedule.jsx | JavaScript JSX |         46 |          0 |          6 |         52 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/DeleteInSubject.jsx    | JavaScript JSX |        116 |          0 |         21 |        137 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/Group.jsx              | JavaScript JSX |         10 |          0 |          1 |         11 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/Groups.jsx             | JavaScript JSX |         88 |          0 |         10 |         98 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/HandleGroup.jsx        | JavaScript JSX |         41 |          0 |          7 |         48 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/Subject.jsx            | JavaScript JSX |         12 |          0 |          2 |         14 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Components/Subjects.jsx           | JavaScript JSX |         49 |          0 |          6 |         55 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Components/SubjectManagement/Styles.css                        | CSS            |        376 |          0 |         61 |        437 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Dashboard.jsx                                                  | JavaScript JSX |        113 |          1 |         15 |        129 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Dashboard/Styles/Styles.css                                              | CSS            |        184 |          2 |          7 |        193 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Home/Components/Header.jsx                                               | JavaScript JSX |         11 |          0 |          3 |         14 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Home/Components/Main.jsx                                                 | JavaScript JSX |         26 |          0 |          2 |         28 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Home/Css/Styles.css                                                      | CSS            |        139 |          2 |         14 |        155 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/Home/Home.jsx                                                            | JavaScript JSX |          9 |          0 |          1 |         10 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/PageError/Css/Error.css                                                  | CSS            |      1,565 |          0 |         45 |      1,610 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/App/PageError/Error.jsx                                                      | JavaScript JSX |        143 |          0 |          2 |        145 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/Images/iconmonstr-line-one-horizontal-lined.svg                              | XML            |          1 |          0 |          0 |          1 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/Images/iconmonstr-plus-lined.svg                                             | XML            |          1 |          0 |          0 |          1 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/src/Images/iconmonstr-plus-thin.svg                                              | XML            |          1 |          0 |          0 |          1 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/vercel.json                                                                      | JSON           |          8 |          0 |          1 |          9 |
+| /home/camilo/Documentos/dev/Proyectos/classmaster/vite.config.js                                                                   | JavaScript     |          5 |          1 |          2 |          8 |
+| Total                                                                                                                              |                |     15,912 |         71 |        650 |     16,633 |
++------------------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

@@ -36,7 +36,7 @@ export function Login({ onFormSwitch }) {
 
  function logIn() {
     axios
-      .post("http://localhost:3030/api/auth/login",
+      .post("https://server-classmaster-dev-bheg.2.ie-1.fl0.io/api/auth/login",
        { email: values.email, password: values.password })
       .then(response => {
         response = response.data
