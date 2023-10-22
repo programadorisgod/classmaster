@@ -49,7 +49,7 @@ export default  function Dashboard() {
   const validation = () => {
     axios
       .get(
-        `http://localhost:3030/api/users/${user.email}`,
+        `https://server-classmaster-dev-bheg.2.ie-1.fl0.io/api/users/${user.email}`,
         { headers: { Authorization: `Bearer ${user.tokenSession}` } }
       )
       .then((Response) => {
